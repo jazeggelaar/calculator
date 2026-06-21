@@ -1,6 +1,16 @@
 import streamlit as st #streamlit run app.py
 st.title("calculator!")
 math = st.text_input("type here your math question")
+st.write("rules")
+st.write("| unsupported")
+st.write("| | letters")
+st.write("| | symbols")
+st.write("| supported")
+st.write("| | /")
+st.write("| | *")
+st.write("| | -")
+st.write("| | +")
+st.write("| | nummbers")
 if st.button("run math"):
     answer = eval(math)
     st.write("calculated:", answer)
