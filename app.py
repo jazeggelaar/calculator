@@ -1,4 +1,4 @@
-import streamlit as st #streamlit run app.py
+import streamlit as st #jesse-calculator.streamlit.app
 st.title("calculator!")
 math = st.text_input("type here your math question")
 if st.button("run math"):
