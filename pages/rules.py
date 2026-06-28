@@ -10,8 +10,8 @@ st.write("| | -")
 st.write("| | +")
 st.write("| | nummbers")
 if st.button("information about rules"):
-    page_wanted = 3
+    st.switch_page("pages/information.py")
 if st.button("i dont understand"):
-    st.switch_page("pages/5.py")
+    st.switch_page("pages/understand_not.py")
 if st.button("ok"):
-    st.switch_page("pages/app.py")
+    st.switch_page("app.py")

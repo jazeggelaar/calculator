@@ -1,2 +1,0 @@
-if st.button("Ga naar Uitleg"):
-    st.switch_page("pages/uitleg.py")
