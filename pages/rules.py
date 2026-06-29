@@ -14,4 +14,4 @@ if st.button("information about rules"):
 if st.button("i dont understand"):
     st.switch_page("pages/not understand.py")
 if st.button("ok"):
-    st.switch_page("app.py")
+    st.switch_page("calculator.py")
