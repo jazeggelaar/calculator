@@ -1,6 +1,6 @@
 import streamlit as st
-st.write("[parent]:")
-st.write("| [string]")
+st.write("[text parent]:")
+st.write("| [text]")
 if st.button("extra information"):
     st.switch_page("pages/information_extra.py")
 if st.button("back"):
